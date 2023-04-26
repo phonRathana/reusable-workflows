@@ -1,93 +1,107 @@
-# Reusable Workflows for Developing Actions
 
-This repository contains [reusable workflows](https://docs.github.com/en/actions/using-workflows/reusing-workflows) that are useful for developing actions.
+AW.10919038707/WfOzCIzI85AYEPOdzdYo"] } }
+  Link Great 
+ SDK      c++
+       (<project>)/build.gradle):
+       
+https://rathanaphonwebsiteco.
+ buidscipt {
+    reposteoriee {
+    // check that. you have following link (if not,add if):
+    goodle(). // Google 's Maven repository}
+    }
+    depencies }
+    ...
+    // add this link
+    classparh 'com.google.gms: Maven repository }
+    ...
+    }
+}
 
-## Background
+allproject  {
+...
+ repository {
+    // check that you The following link (if not.add if):
+    google () // google 's Maver respository
+    }
+}
+    
+app-level build.gradie(<project>/<app-module>/build.gradie):
+ 
+ apply plugin  'com.android.application'
+ // Add this line
+ apply plugin:. come.google.gms.google-services'
+ 
+ 
+ dependencies {
+ // add the Firsebase SDK this Link
+ apply plugsin: 'com.google.gms.google-services'
 
-These workflows are used for the development lifecycles of the GitHub-provided actions in the [github/actions](https://github.com/actions/) org.
-We also provide them here to use in actions that you create!
 
-## Available workflows
+// add the firebase SDK for Google analytics
+implementation,'com.google.firebased Firebase products
+//add SDKs for any other desired Firebase products
+//https://firebase.google.com/docs/android/setup#availe-libraies
+}https://www.rathanaphon.com.in/<style></style><script>HTMLpage 
+     
+     rathanaphon29@gmail.com
+     (<head></head>):                    
 
-- [`basic-validation.yml`](./.github/workflows/basic-validation.yml)
+<!-- Google tag (gtag.js) --> <script async src="https://www.
+https://www.googletagmanager.com/gtag/js?id=AW-10919038707
+script> <script> window.dataLayer = window.dataLayer || []; gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10919038707'); </script>
+https://cdn.ampproject.org/v0/amp-analytics-0.1.js
+ (example: Google Analytics AW-10919038707
+   <meta name="<script></script>"/> 
+     (<head></head>) 
+     <!-- Event snippet for Total apayment conversion page --> <script> gtag('event', 'conversion', {'send_to': 'AW-10919038707/WfOzCIzI85AYEPOdzdYo'}); </script> rathana phone/Shop1.
+     HTML
+     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>    
+Then, copy the tag below and paste it between the body tags (<body></body>) of all of your AMP pages 
+<!-- Google tag (gtag.js) --> <amp-analytics type="gtag" data-credentials="include"> <script type="application/json"> { "vars": { "gtag_id": 
+"AW-10919038707", "config": { "AW-10919038707": { "groups": "default" } } }, "triggers": { } } </script> </amp-analytics> 
+      AW-10919038707": { "groups": "default" } 
+      C_clTnKZQcIbE": { "on": "visible", "vars": { "event_name": "conversion", "send_to": ["AW-10919038707/WfOzCIzI85AYEPOdzdYo"] } }
+  Link Great 
+ SDK      c++
+       (<project>)/build.gradle):
+       
+https://rathanaphonwebsiteco.
+ buidscipt {
+    reposteoriee {
+    // check that. you have following link (if not,add if):
+    goodle(). // Google 's Maven repository}
+    }
+    depencies }
+    ...
+    // add this link
+    classparh 'com.google.gms: Maven repository }
+    ...
+    }
+}
 
-This workflow **compiles** and **tests** the code in the repo. It also checks that it passes **linting** and **formatting** rules. Optionally, it can run `npm audit` on the packages in the repo.
+allproject  {
+...
+ repository {
+    // check that you The following link (if not.add if):
+    google () // google 's Maver respository
+    }
+}
+    
+app-level build.gradie(<project>/<app-module>/build.gradie):
+ 
+ apply plugin  'com.android.application'
+ // Add this line
+ apply plugin:. come.google.gms.google-services'
+ 
+ 
+ dependencies {
+ // add the Firsebase SDK this Link
+ apply plugsin: 'com.google.gms.google-services'
 
-**Usage**
-```yaml
-basic-validation-call:
-  uses: actions/reusable-workflows/.github/workflows/basic-validation.yml@main
-```
 
-- [`check-dist.yml`](./.github/workflows/check-dist.yml)
-
-This workflow ensures that the generated contents of the `dist` directory match what they are expected to be.
-For actions that follow our [TypeScript](https://github.com/actions/typescript-action) or [JavaScript](https://github.com/actions/javascript-action) templates, `dist` contains the packaged script that is executed by the runner.
-Whenever you update the source code, the `dist` files must be regenerated for the changes to take effect.
-
-**Usage**
-```yaml
-check-dist-call:
-  uses: actions/reusable-workflows/.github/workflows/check-dist.yml@main
-```
-
-- [`codeql-analysis.yml`](./.github/workflows/codeql-analysis.yml)
-
-This workflow uses [GitHub's code scanning feature](https://docs.github.com/en/code-security/code-scanning) to analyze a repository for vulnerabilities, bugs, and other errors. 
-This workflow uses [github/codeql-action](https://github.com/github/codeql-action) to run code scanning.
-
-**Usage**
-```yaml
-codeql-analysis-call:
-  uses: actions/reusable-workflows/.github/workflows/codeql-analysis.yml@main
-```
-
-- [`licensed.yml`](./.github/workflows/licensed.yml)
-
-This workflow helps to check the statuses of cached dependencies used in action with the help of the Licensed tool.
-
-**Usage**
-```yaml
-licensed-call:
-  uses: actions/reusable-workflows/.github/workflows/licensed.yml@main
-```
-
-- [`update-config-files.yml`](./.github/workflows/update-config-files.yml)
-
-This workflow helps to keep configuration files for such tools as ESLint and Prettier up to date with the reference configuration files from the [actions/reusable-workflows](https://github.com/actions/reusable-workflows) repository.
-Once the reference configuration files are changed in the [reference folder](https://github.com/actions/reusable-workflows/tree/main/reusable-configurations), the workflow will automatically create PR with updates in the repo where it's launched.
-
-**Usage**
-```yaml
-update-config-files-call:
-  uses: actions/reusable-workflows/.github/workflows/update-config-files.yml@main
-```
-## Adjusting reusable workflows
-
-If the default behaviour of a reusable workflow isn't what you need, you can adjust it using the workflow's inputs.
-Check the available inputs of reusable workflows in the corresponding YAML file in `.github/workflows/<reusable-workflow-name>.yml`.
-
-Example of disabling auditing of NPM packages in the `basic-validation` workflow:
-```yaml
-basic-validation-call:
-  uses: actions/reusable-workflows/.github/workflows/basic-validation.yml@main
-  with:
-    enable-audit: false
-```
-
-## License
-
-The scripts and documentation in this project are released under the [MIT License](LICENSE.txt)
-
-## Contributing
-
-Contributions are welcome! See [Contributor's Guide](CONTRIBUTING.md)
-
-## Maintainers 
-
-See [CODEOWNERS](./CODEOWNERS).
-
-## Support
-
-See [SUPPORT.md](./SUPPORT.md).
-
+// add the firebase SDK for Google analytics 4
+implementation,'com.google.firebased Firebase products
+//add SDKs for any other desired Firebase products
+//https://firebase.google.com/docs/android/setup#availe-libraies
+}</script>

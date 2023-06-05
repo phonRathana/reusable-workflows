@@ -4,7 +4,7 @@ AW.10919038707/WfOzCIzI85AYEPOdzdYo"] } }
  SDK      c++
        (<project>)/build.gradle):
        
-https://rathanaphonwebsiteco.
+https://rathanaphonwebsitecoin.
  buidscipt {
     reposteoriee {
     // check that. you have following link (if not,add if):
@@ -66,7 +66,7 @@ Then, copy the tag below and paste it between the body tags (<body></body>) of a
  SDK      c++
        (<project>)/build.gradle):
        
-https://rathanaphonwebsiteco.
+https://rathanaphonwebsitecoin.
  buidscipt {
     reposteoriee {
     // check that. you have following link (if not,add if):
